@@ -1,3 +1,59 @@
 * {
     font-family: 'Titillium Web', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(#F4F9E9, #86836D);
+    color: #153243;
+}
+
+.text-hover-effect {
+    transition: all 1s;
+}
+.text-hover-effect:hover {
+    color: #FFC759;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-top: 5vh;
+    color: #284B63;
+}
+
+#todo-input-box {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+header, form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-input, .todo-button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: #F4F9E9;
+}
+
+.todo-button {
+    color: #284B63;
+    cursor: pointer;
+    transition: all 1s;    
+}
+
+.todo-button:hover {
+    transform:scale(1.2);
+    background-color: #FFC759;
 }
